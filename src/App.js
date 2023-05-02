@@ -1,23 +1,20 @@
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <Weather defaultCity="New York" />
+        <footer>
+          This project was created by Angie Sun and is{" "}
+          <a
+            href="https://github.com/litopeanut/react-weather-app.git"
+            target="blank"
+          >
+            open-sourced on Github
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
