@@ -1,12 +1,10 @@
 .WeatherForecast {
-  margin-left: 10px;
+  margin: 40px 0;
+  padding-bottom: 50px;
+  text-align: center;
 }
 
 .WeatherForecast-temperature-min {
   opacity: 0.6;
   margin-left: 10px;
-}
-
-.WeatherForecastDay {
-  margin-left: 15px;
 }
