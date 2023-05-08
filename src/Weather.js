@@ -13,6 +13,7 @@ export default function Weather(props) {
       city: response.data.city,
       coordinates: response.data.coordinates,
       description: response.data.condition.description,
+      iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
       temperature: response.data.temperature.current,
       date: new Date(response.data.time * 1000),
       humidity: response.data.temperature.humidity,
